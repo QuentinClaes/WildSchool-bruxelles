@@ -1,0 +1,17 @@
+/node_modules
+node_modules
+.next
+.vscode/settings.json
+src/.DS_Store
+.DS_Store
+.vscode/settings.json
+prettier.config.js
+.vscode/settings.json
+.vscode/settings.json
+.DS_Store
+.prettierrc
+.vscode/settings.json
+.DS_Store
+.vscode/settings.json
+.DS_Store
+static/locales/.DS_Store
