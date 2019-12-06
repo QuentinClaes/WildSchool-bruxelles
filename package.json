@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start -p $PORT"
+    "build": "yarn next build",
+    "start": "yarn next start"
   },
   "dependencies": {
     "@material-ui/core": "^4.7.1",
