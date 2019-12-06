@@ -1,2 +1,0 @@
-# WildSchool-bruxelles
- 
