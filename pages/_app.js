@@ -1,7 +1,6 @@
 
 import App from 'next/app';
 import React from 'react';
-import { ApolloProvider } from 'react-apollo';
 import { ApolloProvider as ApolloProviderHooks } from 'react-apollo-hooks';
 import withApolloClient from '../lib/with-apollo-client.jsx';
 
@@ -15,19 +14,17 @@ class MyApp extends App {
 	}
 
 	render() {
-		const { t, Component, pageProps, apolloClient } = this.props
+		const { t, Component, pageProps, apollo } = this.props
 
 		const props = {
 			...pageProps,
 		}
 
 		return (
-				<ApolloProvider client={apolloClient}>
-					<ApolloProviderHooks client={apolloClient}>
+					<ApolloProviderHooks client={apollo}>
 						{/* <button onClick={methodDoesNotExist}>Break the world</button>; */}
 						<Component {...props}/>
 					</ApolloProviderHooks>
-				</ApolloProvider>
 		)
 	}
 }
