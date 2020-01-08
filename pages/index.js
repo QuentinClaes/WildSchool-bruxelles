@@ -85,7 +85,6 @@ function NextSKip() {
   };
   return (
     <React.Fragment>
-      {/* <h1 className={classes.title}>Hello Wild School</h1> */}
       <Grid container className={classes.root} spacing={2}>
       <Grid item xs={12}>
         <Grid container justify="center" spacing={spacing}>
