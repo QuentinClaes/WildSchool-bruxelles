@@ -56,6 +56,7 @@ export default function RecipeReviewCard({ Article }) {
         <Typography variant="body2" color="textSecondary" component="p">
           {Article.title}
         </Typography>
+        
         <Typography variant="body1" color="textPrimary" component="p">
           {Article.content}
         </Typography>
